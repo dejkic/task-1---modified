@@ -1,0 +1,68 @@
+#dot {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+  }
+
+#dot p {
+    position: absolute;
+    color:white;
+    font-size: large;
+    text-align: center;
+    top: 65px;
+    left: 60px;
+}
+
+.border {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border-top: 5px dashed black;
+    border-right: dashed 5px blue;
+    border-left: dashed 5px black;
+    border-bottom: dashed 5px blue;
+}
+
+.colorPick {
+    margin: 10px;
+}
+
+#colorInputColor {
+    width: 60px;
+    height: 18px;
+}
+
+#colorButton {
+    position: absolute;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 22px;
+    border: none;
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border-radius: 12px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.colorPick {
+    margin: 10px;
+    color: black;
+}
+
+.linear-animation {
+    animation: mymove 10s infinite linear;
+}
+
+.reverse-animation {
+    animation: mymove 10s infinite linear reverse;
+}
+@keyframes mymove {
+    0% {transform: rotate(360deg);}
+  }
